@@ -1,0 +1,6 @@
+@combineDaySixteenN_TierAPIs_HostAddress = http://localhost:5166
+
+GET {{combineDaySixteenN_TierAPIs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
