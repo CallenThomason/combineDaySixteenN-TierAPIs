@@ -29,6 +29,10 @@ namespace combineDaySixteenN_TierAPIs.Migrations
                     b.Property<int>("Quantity")
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("StorageLocation")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
 
                     b.ToTable("Supplies");

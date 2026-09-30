@@ -15,3 +15,11 @@ Controller(Presentation) -> Services(Business) -> Repository(Data access) -> Dat
 ## Repository
 
 - Stores and Fetches Data: get, add, update, and delete. (The only class that uses AppDbContext)
+
+### DTO Data Transfer Objects
+
+* Data * This holds the fields, no methods, no rules, AND NO DATABASE
+
+* Transfer * It has one job: Carrying data across our API
+
+* Object * This is a plain C# class, just like any other
